@@ -55,8 +55,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "200kb",
+                  "maximumError": "400kb"
                 }
               ]
             }
@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "spatial"
+  "defaultProject": "spatial",
+  "cli": {
+    "analytics": "27424c4c-b0b3-4afb-84fb-90a02c70bab3"
+  }
 }
